@@ -1,0 +1,99 @@
+#title{
+    background-color:rgb(7, 167, 159);
+    color: #fff;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    line-height:1.5;
+    font-size:3.5rem;
+}
+.container-fluid{
+    padding:3% 15%;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size:2rem;
+    font-weight:bold;
+}
+.nav-item{
+    padding:0 18px;
+}
+.nav-link{
+    font-size:1.3rem;
+    font-family: 'Montserrat', sans-serif;
+}
+/*button */
+.download-button{
+    margin:5% 3% 5% 0;
+}
+/*Skills*/
+#skill{
+    padding:7% 25%;
+    background-color: #fff;
+    text-align: center;
+}
+h2{
+    font-family: 'Roboto Mono', monospace; 
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight:bold;
+}
+/*Research */
+#research{
+    background-color:darkturquoise;
+    text-align: center;
+}
+.research-pic{
+    border-radius: 100%;
+    margin: 20px;
+}
+em{
+    font-family: 'Montserrat', sans-serif; 
+    font-size:1.7rem;
+}
+#press{
+    background-color:darkturquoise;
+    text-align: center;
+    padding-bottom:3%;
+}
+.press-logo{
+    margin:20px 20px 50px;
+}
+.carousel-item{
+    padding:7% 15%;
+} 
+/*Education*/
+#Education{
+    padding: 100px;
+    text-align: center;
+}
+.education{
+    padding: 2% 3%;
+}
+/* Footer*/
+#footer{
+    background-color:darkturquoise;
+    padding:7% 15%;
+    text-align: center;
+} 
+.contact-icon{
+    margin: 20px 10px;
+}
+.contact-icon:hover{
+    color:rgb(7, 167, 159);
+}
+.foot-text{
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 1.5rem;
+    font-weight:bold;
+}
+@media(max-width:1020px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position: static;
+        transform:rotate(0);
+    }
+}
+
